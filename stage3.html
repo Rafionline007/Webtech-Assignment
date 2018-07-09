@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage1</title>
+    <link type="text/css" rel="stylesheet" href="stage3.css">
+</head>
+<body>
+      <h2>PASSPORT APPLICATION - STAGE 3</h2>
+    <div class="top">
+       Fields marked with <span>(*)</span> are mandatory.<br><br>
+    </div>
+	<div class="main">
+    <div class="one">
+	
+      <h2>Payment Information</h2><br>
+	  <form action="stage3store.php" method="post">
+	  Payment Type:
+                   <input type="radio" name="payment_type" value="Online"> Online <br>
+                   <input type="radio" name="payment_type" value="			Non-Online" > 			Non-Online <br><br>
+				   <input type="checkbox" name="Tick" value="Tick"> Skip Payment <br><br>
+				   Amount: <span>*</span>
+				   <select class="longbox2"  name="amount">
+                    <option value="amount1">BDT</option>
+                    <option value="amount2">USD</option>
+                    <option value="amount3">NGR</option>
+					</select><input class="longbox" type="text">
+					<br>
+					Date of payment:<span>*</span> <input class="longbox" type="date" name="pdate"><br>
+					Receipt No:<span>*</span> <input class="longbox" type="text"><br><br>
+					Name of  Bank:<select class="longbox2" name="bank">
+                    <option value="bank"></option>
+                    <option value="bank1">Dhaka bank</option>
+                    <option value="bank 2">UCB</option>
+                    <option value="bank3">South East Bank</option>
+					<option value="bank4">DBBL</option>
+                    <option value="bank5">Trust</option>
+                </select><br>
+					Name of  Branch:
+					<select class="longbox2" name="branch">
+                    <option value="branch1"></option>
+                    <option value="branch2">Dhaka</option>
+                    <option value="branch3">khilkhet</option>
+                    <option value="branch4">mirpur</option>
+					<option value="branch5">Kafrul</option>
+                    <option value="branch6">Cantonment</option>
+                </select><br>
+					<br><br>
+	</div>
+		<div class="Two">
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<button><a cls="btn" id="button" href="stage3.html">Next Page</a>     </button>
+					<button><a cls="btn" id="button" href="stage2.html">previous page</a>     </button>
+	</div>
+</body>
+</html>				

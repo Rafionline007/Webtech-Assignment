@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage1</title>
+    <link type="text/css" rel="stylesheet" href="stage2.css">
+</head>
+<body>
+      <h2>PASSPORT APPLICATION - STAGE 2</h2>
+    <div class="top">
+       Fields marked with <span>(*)</span> are mandatory.<br><br>
+    </div>
+	 <div class="main">
+      <div class="one">
+	  <form action="stage2store.php" method="post">
+           <h2>Applicant Contact Information</h2><br>
+			Office No:<span>*</span><input class="longbox" type="text"><br><br>
+			Residence No:<span>*</span><input class="longbox" type="text"><br>
+			Mobile No:<span>*</span><input class="longbox" type="text"><br>
+	  <h2>Emergency Conctact Person's Information</h2><br>
+			Name:<span>*</span><input class="longbox" type="text"><br>
+			Country:<span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select><br>
+			<input type="checkbox" name="Tick" value="Tick"> Same as permanent Address <br><br>
+			<input type="checkbox" name="Tick" value="Tick"> Same as present Address <br><br>
+	        Village/House: <input class="longbox" type="Text" name="text"><br>
+            Road/Block/Sector:<input class="longbox" type="Text" name="text"><br>
+            District:<span>*</span>
+                <select class="longbox2"  name="district">
+                    <option value="district">-SELECT-</option>
+                    <option value="district1">Dhaka</option>
+                    <option value="district2">Chittagong</option>
+                    <option value="district3">Khulna</option>
+                </select><br>
+            Police Station:<span>*</span>
+                <select class="longbox2"  name="police">
+                    <option value="police1">Kafrul</option>
+                    <option value="police2">Dhaka</option>
+                    <option value="police3">Kuril</option>
+                    <option value="police4">Cantonment</option>
+                </select><br>
+            Post Office:<span>*</span>
+                <select class="longbox2" name="post">
+                    <option value="post1"></option>
+                    <option value="post2">Dhaka</option>
+                    <option value="post3">khilkhet</option>
+                    <option value="post4">mirpur</option>
+					<option value="post5">Kafrul</option>
+                    <option value="post6">Cantonment</option>
+                </select><br>
+			Contact No:<span>*</span><input class="longbox" type="text"><br>
+			Email:<span>*</span><input class="longbox" type="text"><br>
+			Relationship:<span>*</span>
+                <select class="longbox2"  name="Relationship">
+                    <option value="relation1">Father</option>
+                    <option value="relation2">Mother</option>
+                    <option value="relation3">Spouse</option>
+                 </select><br>
+			  </div>
+			    <div class="Two">
+				<form action="stage2store.php" method="post">
+		<h2>Old Passport Information</h2><br>		
+			Passport No:<span>*</span><input class="longbox" type="text"><br><br>
+			Place of issue:<span>*</span><input class="longbox" type="text"><br>	
+			Date of issue:<span>*</span> <input class="longbox" type="date" name="issdate"><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+			
+			<button><a cls="btn" id="button" href="stage3.html">Next Page</a>     </button>
+			<button><a cls="btn" id="button" href="stage1.html">Previous Page</a>     </button>
+			
+   </div>
+</body>
+</html>

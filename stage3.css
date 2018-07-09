@@ -1,0 +1,59 @@
+body{
+    font-family: monospace;
+    font-size: 18px;
+}
+span{
+    color: red;
+}
+u{
+    color: blue;
+}
+.top{
+    border-bottom: 5px solid silver;
+    margin-bottom: 5px;
+}
+.main{
+    border: 1.5px solid silver;
+    height: 1200px;
+    width: 100%;
+}
+.one{
+    float: left;
+    border-right: 1.5px dashed silver;
+    padding-left: 3%;
+    width: 46%;
+}
+.Two{
+    float: left;
+    padding-left: 3%;
+    margin-top: 30px;
+    width: 46%;
+}
+.shortbox{
+    border:1px solid silver;
+    width: 40px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.longbox{
+    border:1px solid silver;
+    width: 180px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.longbox2{
+    width: 180px;
+    height: 27px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button{
+    border:1px solid silver;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    float: right;
+}

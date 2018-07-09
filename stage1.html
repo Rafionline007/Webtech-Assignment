@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage1</title>
+    <link type="text/css" rel="stylesheet" href="stage1.css">
+</head>
+<body>
+      <h2>PASSPORT APPLICATION - STAGE 1</h2>
+    <div class="top">
+        <span>Before filling up the online application form read the <u>guidelines</u> carefully.</span><br><br>Fields marked with <span>(*)</span> are mandatory.<br><br>
+    </div>
+   <div class="main">
+      <div class="one">
+           <h2>Passport Application Information</h2><br>
+		    <form action="stage1store.php" method="post">
+           Applying in: <span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">Bangladesh</option>
+                    <option value="country2">India</option>
+                    <option value="country3">Nepal</option>
+                    <option value="country4">Australia</option>
+                </select><br><br>
+           Application Type: NEW APPLICATION<br><br>
+           Passport Type: <span>*</span>
+                <select class="longbox2" name="opt">
+                    <option value="opt1">-SELECT-</option>
+                </select><br>
+           Delivery Type: <input type="radio" name="delivery" value="regular"> Regular 
+                          <input type="radio" name="delivery" value="express"> Express <br><br>
+
+           <h2>Personal Information</h2><br>
+           Name of Applicant:<span>*</span><input class="longbox" type="text"><br>
+           First Part(Given Name):<input class="longbox" type="text"><br>
+           Second Part(Surname):<span>*</span><input class="longbox" type="text"><br><br>
+           
+           Guardian <input type="checkbox" name="Tick" value="Tick"> only if Applicant is legally adapted <br><br>
+           Father's name:<span>*</span><input class="longbox" type="text"><br>
+           Father's Nationality:<span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select><br>
+           Father's Profession:<span>*</span>
+                <select class="longbox2" name="opt">
+                    <option value="opt1">-SELECT-</option>
+					 <option value="opt2"> Government Employee</option>
+					  <option value="opt3">Business</option>
+					   <option value="opt4">Other</option>
+                </select><br>
+           Mother's name:<span>*</span><input class="longbox" type="text"><br>
+           Mother's Nationality:<span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select><br>
+           Mother's Profession:<span>*</span>
+                <select class="longbox2" name="opt">
+               
+					 <option value="opt1">HouseWife</option>
+					 <option value="opt2"> Government Employee</option>
+					  <option value="opt3">Business</option>
+					   <option value="opt4">Other</option>
+                </select> <br>
+           Spouse's name:<input class="longbox" type="text"><br>
+           Spouse's Nationality:
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select>
+                        <br>
+           Spouse's Profession:
+                <select class="longbox2" name="opt">
+                    <option value="opt1">-SELECT-</option>
+					<option value="opt2"> Government Employee</option>
+					  <option value="opt3">Business</option>
+					   <option value="opt4">Other</option>
+                </select><br>
+           Marital Status:<span>*</span>
+                <select class="longbox2" name="opt">
+                    <option value="opt1">-SELECT-</option> 
+					<option value="opt2">Married</option>
+					<option value="opt3">Unmarried</option>
+				</select><br>
+           Applicant's Profession:<span>*</span>
+                <select class="longbox2" name="opt">
+                    <option value="opt1">-SELECT-</option>.
+					<option value="opt2"> Government Employee</option>
+					  <option value="opt3">Business</option>
+					   <option value="opt4">Other</option>
+                </select><br>
+           Country of Birth:<span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select><br>
+           Birth District:<span>*</span>
+                <select class="longbox2" name="opt">
+                    <option value="dist1">-SELECT-</option>
+                    <option value="dist2">Indian</option>
+                    <option value="dist3">United Kingdom</option>
+                    <option value="dist4">Australian</option>
+					<option value="dist5">Japan</option>
+                </select><br>
+                        
+      </div>
+      <div class="Two">
+            Date of Birth:<span>*</span> <input class="longbox" type="date" name="date"><br>
+            Gender:<span>*</span>
+                   <input type="radio" name="gender" value="male"> Male 
+                   <input type="radio" name="gender" value="female" > Female 
+                   <input type="radio" name="gender" value="other"> Other<br>
+            Birth ID No: <span>*</span><input class="longbox" type="text" name="id"><br>
+            National ID No: <input class="longbox" type="text" name="national"><br>
+            Text ID No: <input class="longbox" type="Text" name="text"><br>
+            Height: <span>*</span><input class="shortbox" type="text" name="cm">cm <input class="shortbox" type="text" name="cm">inch<br>
+            Religion: <span>*</span>
+                <select class="longbox2"  name="Religion">
+                    <option value="Status">-SELECT-</option>
+                    <option value="Status">Islam</option>
+                    <option value="Status">Hindu</option>
+                    <option value="Status">Crist</option>
+					<option value="Status">Buddist</option>
+                </select><br>
+            Email: <span>*</span><input class="longbox" type="email">
+            <br>
+            <h2>Citizenship Information</h2><br>
+            Nationality:<span>*</span>
+                <select class="longbox2" name="country">
+                    <option value="country1">BANGLADESHI</option>
+                    <option value="country2">Indian</option>
+                    <option value="country3">United Kingdom</option>
+                    <option value="country4">Australian</option>
+					<option value="country5">Japan</option>
+                </select><br>
+            Citizenship Status:<span>*</span>
+                <select class="longbox2"name="country">
+                    <option value="country1">Birth</option>
+                </select><br>
+            Dual Citizenship: <span>*</span><input type="radio" name="dual" value="yes"> Yes <input type="radio" name="dual" value="no" > No <br>
+            <h2>Present Address</h2><br>
+            Village/House: <input class="longbox" type="Text" name="text"><br>
+            Road/Block/Sector:<input class="longbox" type="Text" name="text"><br>
+            District:<span>*</span>
+                <select class="longbox2"  name="district">
+                    <option value="district">-SELECT-</option>
+                    <option value="district1">Dhaka</option>
+                    <option value="district2">Chittagong</option>
+                    <option value="district3">Khulna</option>
+                </select><br>
+            Police Station:<span>*</span>
+                <select class="longbox2"  name="police">
+                    <option value="police1">Kafrul</option>
+                    <option value="police2">Dhaka</option>
+                    <option value="police3">Kuril</option>
+                    <option value="police4">Cantonment</option>
+                </select><br>
+            Post Office:<span>*</span>
+                <select class="longbox2" name="post">
+                    <option value="post1"></option>
+                    <option value="post2">Dhaka</option>
+                    <option value="post3">khilkhet</option>
+                    <option value="post4">mirpur</option>
+					<option value="post5">Kafrul</option>
+                    <option value="post6">Cantonment</option>
+                </select><br>
+            <h2>Permanent Address</h2><br>
+            <input type="checkbox" name="Tick" value="Tick"> Same as above<br> <br>
+            Village/House: <input class="longbox" type="Text" name="text"><br>
+            Road/Block/Sector:<input class="longbox" type="Text" name="text"><br>
+            District:<span>*</span>
+                <select class="longbox2"  name="district">
+                    <option value="district">-SELECT-</option>
+                    <option value="district1">Dhaka</option>
+                    <option value="district2">Mymensingh</option>
+                    <option value="district3">Khulna</option>
+                </select>
+                          <br>
+            Police Station:<span>*</span>
+                <select class="longbox2"  name="police">
+                 <option value="district">-SELECT-</option>
+                      <option value="police1">Kafrul</option>
+                    <option value="police2">Dhaka</option>
+                    <option value="police3">Kuril</option>
+                    <option value="police4">Cantonment</option>
+                </select><br>
+            Post Office:<span>*</span>
+                <select  class="longbox2" name="post">
+                    <option value="post1"></option>
+                    <option value="post2">Dhaka</option>
+                    <option value="post3">khilkhet</option>
+                    <option value="post4">mirpur</option>
+                </select><br>
+        </div>
+        <button><a cls="btn" id="button" href="stage2.html">SAVE & NEXT</a> </button>
+        <button>SAVE NOW & CONTINUE IN THE FUTURE</button>
+   </div>
+</body>
+</html>
